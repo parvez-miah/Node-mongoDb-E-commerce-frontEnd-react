@@ -1,14 +1,23 @@
-.header{
-    margin-top: 10px;
-}
-.header nav a{
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(55, 0, 92);
+    color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    margin-right: 20px;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 255, 255);
     color: black;
-    padding: 0 5px;
-    
-}
-.header nav a:hover{
-    background-color: lightblue;
-    color: black;
-}
+  }

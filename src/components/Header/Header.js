@@ -4,12 +4,13 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="header">
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/users">Users</Link>
-                <Link to="/users/add">Add User</Link>
-            </nav>
+        <div className="header font">
+            <ul>
+                <li> <Link to="/">Home</Link></li>
+                <li> <Link to="/users">Products</Link></li>
+                <li><Link to="/product/add">Add Products</Link></li>
+
+            </ul>
         </div>
     );
 };
